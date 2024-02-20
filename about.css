@@ -1,0 +1,81 @@
+@import url("style.css");
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 3rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.about-content {
+    width: 65dvw;
+}
+
+.about-img {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35dvw;
+    height: 35dvw;
+}
+
+.about-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 50%;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 3px solid rgb(14, 14, 21);
+}
+
+.heading {
+    text-align: center;
+    font-size: var(--size-5xl);
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.about-content p {
+    margin-left: 2rem;
+}
+
+@media (min-width: 767px) {
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 5rem
+    }
+    .about-img img {
+        width: var(--size-10xl);
+        height: var(--size-10xl);
+    }
+    
+}
+
+@media (min-width: 1023px) {
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .about-img img {
+        width: 15rem;
+        height: 15rem;
+    }
+    .about-content h2 {
+        font-size: var(--size-6xl);
+    }
+}
+
+
