@@ -1,0 +1,82 @@
+@import url("style.css");
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 5rem;
+    width: 100%;
+
+}
+
+.contact-content {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-content h2 {
+    text-align: left !important;
+    line-height: 1.5;
+    align-self: first baseline;
+}
+
+.contact-content form {
+    width: 90dvw;
+    height: 70dvh;
+    background-color: gray;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.contact-content form label {
+    font-size: 1.5rem;
+    text-align: left !important;
+    line-height: 1.5;
+    align-self: first baseline;
+}
+
+.contact-content form input {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 15px;
+}
+
+textarea {
+    resize: none;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    flex: 1 1 auto;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+}
+
+
+.contact-content form label {
+    text-align: start;
+}
+
+@media (min-width: 767px) {
+    .contact-content form {
+        width: 50dvw;
+    }
+}
+
+@media (min-width: 1023px) {
+    .contact-content h2 {
+        font-size: var(--size-6xl);
+    }
+    .contact-content form {
+        width: 40dvw;
+    }
+}
