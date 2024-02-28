@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
 
 
 </head>
@@ -68,7 +70,7 @@
 
         <div class="home-content">
             <h1> Greetings, I am <span class="new-color"> Jericho </span></h1>
-            <h3> A <span class="new-color"> Student </span></h3>
+            <h3> A <span class="new-color"> I.T Student </span></h3>
             <p> 
                 an enthusiastic IT student with a passion for web development and programming. Welcome to my digital playground, where lines of code come to life, and innovation knows no bounds.
             </p>
@@ -79,7 +81,7 @@
 
     <section class="about container section" id="about">
         <div class="about-content">
-            <h2 class="heading"> About Me </span></h2>
+            <h2 class="heading"> About Me </h2>
             <p> 
                 As a dedicated student of Information Technology, I have immersed myself in the dynamic world of web development and programming languages. From crafting responsive and visually stunning websites to diving into the intricacies of backend logic, I thrive on the challenges that the ever-evolving IT landscape presents.
 
@@ -89,6 +91,71 @@
         <div class="about-img">
             <img src="about-pic.jpg">
         </div>
+    </section>
+
+    <section class="projects container section" id="projects">
+        <div class="projects-content">
+            <h2 class="heading"> Projects </h2>
+            <div class="projects-container">
+                <div class="projects-item">
+                    <h3> Landing Page </h3>
+                    <div class="bg-image" style="background-image: url('Landingpage.jpg');">
+                    </div>
+                    <div class="btns">
+                        <a href="https://echobaby.github.io/Landing-Page/"> <button class="button-25"> View </button> </a>
+                        <a href="https://github.com/Echobaby/Landing-Page"> <button class="button-25"> Code </button> </a>
+                    </div>
+                    
+                </div>
+
+                <div class="projects-item">
+                    <h3> Calculator </h3>
+                    <div class="bg-image" style="background-image: url('Calculator.jpg');">
+                    </div>
+                    <div class="btns">
+                        <a href="https://echobaby.github.io/barquilla/"> <button class="button-25"> View </button> </a>
+                        <a href="https://github.com/Echobaby/barquilla"> <button class="button-25"> Code </button> </a>
+                    </div>
+                </div>
+
+                <div class="projects-item">
+                    <h3> EventList </h3>
+                    <div class="bg-image" style="background-image: url('EventListener.jpg');">
+                    </div>
+                    <div class="btns">
+                        <a href="https://echobaby.github.io/HandsOn1-addEventListener-WS101/"> <button class="button-25"> View </button> </a>
+                        <a href="https://github.com/Echobaby/HandsOn1-addEventListener-WS101"> <button class="button-25"> Code </button> </a>
+                    </div>
+                </div>
+
+                <div class="projects-item">
+                    <h3> ColorChanger </h3>
+                    <div class="bg-image" style="background-image: url('colorchanger.jpg');">
+                    </div>
+                    <div class="btns">
+                        <a href="https://echobaby.github.io/HandsOn2-colorChanger-WS101/"> <button class="button-25"> View </button> </a>
+                        <a href="https://github.com/Echobaby/HandsOn2-colorChanger-WS101"> <button class="button-25"> Code </button> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contact container section">
+        <div class="contact-content">
+            <h2 class="heading"> Contact </h2>
+            <form>
+                <label> Name </label>
+                <input type="text" placeholder="Enter your name here" required>
+                <label> Email </label>
+                <input type="text" placeholder="Enter your email" required>
+                <label> Message </label>
+                <textarea placeholder="Type your message..." required></textarea>
+                <input id="submit" type="submit" class="button-25" value="Submit">
+
+            </form>
+        </div>
+
     </section>
     
 <script src="function.js"> </script>
